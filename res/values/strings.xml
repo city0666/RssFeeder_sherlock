@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rss feeder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">ABOUT ME</string>
+    
+    <string name="menu">ABOUT ME</string>
+    <string name="author">Alfredo Cerezo</string>
+    <string name="mail">acerezo@gmail.com</string>
+    <string name="bye">Thank you!</string>
+    <string name="date">21-01-13</string>
+
+</resources>

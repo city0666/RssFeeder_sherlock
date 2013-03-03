@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:background="@drawable/list_selector">
+    <!-- Check alignment!!!!! -->
+ 	 <!-- Request Date -->
+	   
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/track_name"
+        android:gravity="right"
+        android:text="21.01.2013"
+        android:layout_marginRight="10dip"
+        android:textSize="11sp"
+        android:textColor="@color/pure_black"
+        android:textStyle="bold"/>
+    <ImageView 
+	    android:id="@+id/rss_icon"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginRight="10dp"
+		android:src="@drawable/rssblue"/>   
+	    
+    <TextView
+        android:id="@+id/track_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/rss_icon"
+        android:layout_toLeftOf="@id/date"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Title"
+        android:textColor="@color/pure_black"
+        android:typeface="sans"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+    
+    
+   
+     <TextView
+        android:id="@+id/track_artist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/track_name"
+        android:layout_alignLeft="@id/track_name"
+        android:layout_marginTop="1dip"
+         android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/pure_black"
+        android:text="Prueba"
+       	android:typeface="sans"
+        android:textSize="13sp"/>
+ 
+   
+  
+ 
+     
+</RelativeLayout>
